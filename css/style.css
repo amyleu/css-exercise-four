@@ -1,4 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #CCCCCC;
+  width: 100%;
+  height: auto;
+}
+
+/*text updates*/
+
+.container h1 {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 400px;
+  background-color: transparent;
+}
+
+.modern {
+  background-color:#E5E5E5;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.preview h1 {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 50px;
+}
+
+/*the following codes are for the images*/
+.preview {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.baku {
+  background-image: url("/images/baku.jpg");
+}
+
+.london {
+  background-image: url("/images/london.png");
+}
+
+.madrid {
+  background-image: url("/images/madrid.jpg");
+}
+
+.rome {
+  background-image: url("/images/rome.jpg");
+}
+
+/*2 column*/
+@media screen and (min-width: 575px){
+   div {
+    margin-left: 1%;
+    margin-right: 1%
+    width: 50%;
+  }
+}
+
+/*4 column*/
+@media screen and (min-width: 991px){
+   div {
+    margin-left: 1%;
+    margin-right: 1%
+    width: 50%;
+  }
 }
