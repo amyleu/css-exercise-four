@@ -34,7 +34,7 @@ body {
 .preview {
   width: 400px;
   height: 300px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -58,16 +58,22 @@ body {
 
 /*2 column*/
 @media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
+   .preview {
+     width: 220px;
+     height: 200px;
+     margin: 15px;
+     display: inline-block;
+     position: relative;
   }
 }
 
 /*4 column*/
 @media screen and (min-width: 991px){
-   div {
-     margin: 1%;
-     width: 48%;
+   .preview {
+     width: 210px;
+     height: 200px;
+     margin: 15px;
+     display: inline-block;
+     position: relative;
   }
 }
